@@ -9,7 +9,7 @@
 
 .wrapper {
   animation: scroll 70s linear infinite;
-  background: url(/src/celeste.png), #e298cc;
+  background: url(../src/celeste.png), #e298cc;
   color: rgb(197, 102, 216);
   height: 100vh;
   min-width: 360px;
