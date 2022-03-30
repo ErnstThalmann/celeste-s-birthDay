@@ -1,0 +1,40 @@
+
+
+
+
+.title {
+  font-size: 2.5rem;
+  font-family: 'Lobster', cursive;
+}
+
+.wrapper {
+  animation: scroll 70s linear infinite;
+  background: url(/src/celeste.png), #e298cc;
+  color: rgb(197, 102, 216);
+  height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: centernnnnnnn;
+  
+}
+
+@keyframes scroll {
+   100%{
+    background-position:0px 3000px;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 200s linear infinite;
+  }
+}
+
+@media (min-width: 670px) {
+  .title {
+    font-size: 5rem;
+  }
+}
